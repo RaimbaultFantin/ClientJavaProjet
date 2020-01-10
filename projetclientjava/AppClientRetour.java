@@ -37,7 +37,7 @@ public class AppClientRetour {
 			feedback = in.readLine();
 			System.out.println(feedback);
 			// envoit du numero du livre
-			System.out.print("-> Que voulez vous retourner ? : ");
+			System.out.print("-> Que voulez vous retourner ? (entrez son numéro) : ");
 			feedback = clavier.nextLine();
 			out.println(feedback);
 			// réponse positive ou négative sur le livre

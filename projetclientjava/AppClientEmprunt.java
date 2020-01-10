@@ -36,7 +36,7 @@ public class AppClientEmprunt {
 			feedback = in.readLine();
 			System.out.println(feedback);
 			// envoit du numero du livre
-			System.out.print("-> Que voulez vous emprunter ? : ");
+			System.out.print("-> Que voulez vous emprunter ? (entrez son numéro) : ");
 			feedback = clavier.nextLine();
 			out.println(feedback);
 			// réponse positive ou négative sur le livre
